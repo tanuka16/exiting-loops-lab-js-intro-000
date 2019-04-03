@@ -13,7 +13,9 @@ function keepGoing(array, changeValue, skipValue){
     while (array[i] === skipValue)
     continue
   }
-  return array
+  else{
+    return array
+  }
 }
 
 function findBy(array, findFn){
